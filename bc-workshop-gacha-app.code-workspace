@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": ".",
+    },
+    {
+      "name": "client",
+      "path": "packages/client",
+    },
+    {
+      "name": "contract",
+      "path": "packages/contract",
+    },
+  ],
+  "settings": {
+    "solidity.compileUsingRemoteVersion": "v0.8.24",
+  },
+}

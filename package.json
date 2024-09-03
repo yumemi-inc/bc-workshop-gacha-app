@@ -1,0 +1,15 @@
+{
+  "name": "solidity-starter-kit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "installConfig": {
+    "pnp": true
+  },
+  "packageManager": "yarn@3.8.5"
+}
