@@ -1,1 +1,2 @@
-import './interact'
+import './play'
+import './add'
