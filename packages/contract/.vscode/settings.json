@@ -2,7 +2,7 @@
   "[solidity]": {
     "editor.defaultFormatter": "JuanBlanco.solidity"
   },
-  "cSpell.words": ["gachapon", "gacha"],
+  "cSpell.words": ["gachapon", "gacha", "sepolia"],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
