@@ -17,7 +17,8 @@ task('play', 'Play the gacha')
 
       console.info('ジャーン！所有コレクションに景品が追加されました...🧸')
 
-      const ownedItems = await contract.getCollection()
+      const address = await signer.getAddress()
+      const ownedItems = await contract.getOwnedCollection(address)
       console.table(ownedItems)
     } catch {
       console.error('おっと、何かがうまくいかなかったようです...😢')
