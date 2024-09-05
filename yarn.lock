@@ -39,6 +39,7 @@ __metadata:
     "@typechain/ethers-v6": ^0.5.1
     "@typechain/hardhat": ^9.1.0
     chai: 4
+    dotenv: ^16.4.5
     ethers: ^6.13.2
     hardhat: ^2.22.9
     hardhat-gas-reporter: ^2.2.1
@@ -2014,6 +2015,13 @@ __metadata:
   dependencies:
     path-type: ^4.0.0
   checksum: fa05e18324510d7283f55862f3161c6759a3f2f8dbce491a2fc14c8324c498286c54282c1f0e933cb930da8419b30679389499b919122952a4f8592362ef4615
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.4.5":
+  version: 16.4.5
+  resolution: "dotenv@npm:16.4.5"
+  checksum: 301a12c3d44fd49888b74eb9ccf9f07a1f5df43f489e7fcb89647a2edcd84c42d6bc349dc8df099cd18f07c35c7b04685c1a4f3e6a6a9e6b30f8d48c15b7f49c
   languageName: node
   linkType: hard
 
