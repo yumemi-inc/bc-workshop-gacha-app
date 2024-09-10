@@ -40,7 +40,7 @@ contract Gachapon {
     return uint(keccak256(abi.encodePacked(block.timestamp, block.prevrandao, msg.sender)));
   }
 
-  // 獲得された景品をガチャから取り除く関数
+  // 獲得された景品をアイテムリストから取り除く関数
   function _removeItem(uint _index) private {}
 
   // 獲得した景品を確認する関数
